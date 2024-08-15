@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', arial;
+    font-weight: 400;
+    background-color: #F9F9F9;
+    overflow-x: hidden;
+}
+img{ 
+    width: 100%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration:none; 
+}
+:root{
+    --e-global-color-primary: #C02810;
+    --e-global-color-secondary: #FE9B19;
+    --e-global-color-text: #787878;
+    --e-global-color-accent: #F9F9F9;
+    --e-global-color-f7d833c: #120E0E;
+    --e-global-color-88fcbaa: #DEDEDE;
+    --e-global-color-5c337e4: #FFAE44;
+    --e-global-color-89343cb: #F0F0F0;
+    --e-global-color-ef06227: #FFFFFF00;
+    --e-global-color-0852166: #F9F9F9BF;
+}
+
+.contact-cards{
+    margin-block: 7rem;
+}
+.contact-cards .card{
+    border: none;
+    background-color: var(--e-global-color-primary);
+    transition: all 0.5s;
+}
+.contact-cards .card:hover{
+    transform: translateY(-2.5rem);
+}
+.contact-cards .card .icon{
+   width: 4.5rem;
+   height: 4.5rem;
+   border-radius: 50%;
+   background-color: white;
+   color: var(--e-global-color-primary);
+   transition: all 0.5s;
+}
+.contact-cards .card .icon span{
+   font-size: 2rem;
+   font-weight: 250;
+}
+.contact-cards .card .icon:hover{
+    scale: 1.1;
+}
+.contact-cards .card h5{
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.form-info{
+    background-color: var(--e-global-color-89343cb);
+
+}
+.form-info h5{
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.form-info p{
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: var(--e-global-color-text);
+}
+label{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+label span{
+    font-weight: 1000;
+}
+input{
+    outline: rgba(255, 255, 0, 0.514);
+    border: none;
+    padding: 20px;
+    position: relative;
+}
+input::placeholder{
+    position: absolute;
+    top: 1.3rem;
+}
+.form-info .message{
+    height: 185px;
+}
+.form-info .btn{
+    text-align: center;
+    width: 180px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--e-global-color-secondary);
+    color: var(--e-global-color-f7d833c);
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 550;
+    transition: all 0.3s;
+}
+.form-info .btn:hover{
+    background-color: var(--e-global-color-primary);
+    color: white;
+}
+@media (max-width: 767.98px){
+    .form-info h5 {
+        font-size: 2.8rem;
+    }
+}
+@media (max-width: 575.98px){
+    .form-info h5 {
+        font-size: 1.5rem;
+    }
+}
