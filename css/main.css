@@ -48,8 +48,11 @@ a{
 }
 .navbar ul .nav-item{
     position: relative;
-    margin-left: 25px;
     cursor: pointer;
+}
+@media (min-width: 1024px) { 
+    .navbar ul .nav-item{
+    margin-left: 25px;
 }
 .navbar ul .nav-item a{
     text-transform: capitalize;
@@ -764,4 +767,5 @@ main .main-text a:hover,.section4 .row .card a:hover, .section7 .btn a:hover{
     .section11-title h3 {
         font-size: 16px;
     }
+
 }
