@@ -51,10 +51,6 @@ a{
     margin-left: 25px;
     cursor: pointer;
 }
-@media (max-width: 1220px) { 
-    .navbar ul .nav-item{
-    margin-left: 0 !important;
-}
 .navbar ul .nav-item a{
     text-transform: capitalize;
 }
@@ -770,4 +766,5 @@ main .main-text a:hover,.section4 .row .card a:hover, .section7 .btn a:hover{
     }
 
 }
+
 
